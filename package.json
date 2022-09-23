@@ -1,0 +1,25 @@
+{
+  "name": "galsenify",
+  "version": "1.0.0",
+  "description": "All you need about Senegal !",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daoodaba975/galsenify.git"
+  },
+  "keywords": [
+    "senegal",
+    "galsen",
+    "get",
+    "data"
+  ],
+  "author": "daoodaba975",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daoodaba975/galsenify/issues"
+  },
+  "homepage": "https://github.com/daoodaba975/galsenify#readme"
+}
