@@ -7,13 +7,15 @@ It offers a lot of information about Senegal.
 
 ## Install 📥
 
+`via Npm`
+
 ```bash
-# via Npm
 npm i galsenify
 ```
 
+`or Yarn`
+
 ```bash
-# or Yarn
 yarn add galsenify
 ```
 
@@ -24,6 +26,7 @@ import galsenify from 'galsenify';
 // or
 const galsenify = require("galsenify");
 
+// get all Senegal's regions
 console.log(galsenify.regions());
 
 // results
@@ -38,7 +41,40 @@ console.log(galsenify.regions());
 ]
 ```
 
-### Example ✅
+## List of available commands 🧩
+
+```js
+// Get all data about Senegal.
+console.log(galsenify.sn());
+
+// Get all national language.
+console.log(galsenify.langNat());
+
+// Get all data about region.
+console.log(galsenify.rg());
+
+// Get all regions.
+console.log(galsenify.regions());
+
+// Get departments by region.
+// replace "value" by an existing department (example : Dakar)
+console.log(galsenify.departments("value"));
+
+// Get populations by region.
+// replace "value" by an existing department (example : thies)
+console.log(galsenify.population("value"));
+
+// Get area by region.
+// replace "value" by an existing department (example : KAOLACK)
+console.log(galsenify.area("value"));
+
+// Get all regions code.
+console.log(galsenify.codes());
+```
+
+## Example ✅
+
+...
 
 ### Author 🌟
 
@@ -67,7 +103,7 @@ You can buy me a coffee ☕ and help the project to grow up 🙌🏾
 
 ⚠️ If you want contribute on this project, please check firt the **[Contributing Guide](data/CONTRIBUTING.md)**.
 
-If you find 🐞 or you have a 💡 about the evolution of this project, you can open a **[issue](https://github.com/daoodaba975/galsenify/issues/new)**.  
+If you find 🐞 or you have a 💡 about the evolution of this project, you can open an **[issue](https://github.com/daoodaba975/galsenify/issues/new)**.  
 I'm also available on **[Twitter](https://twitter.com/daoodaba975)**.
 
 #### Changelog 🔁

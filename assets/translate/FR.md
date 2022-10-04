@@ -5,13 +5,15 @@ Il offre une multitude d'information sur le Sénégal.
 
 ## Installer 📥
 
+`via Npm`
+
 ```bash
-# via Npm
 npm i galsenify
 ```
 
+`ou Yarn`
+
 ```bash
-# ou Yarn
 yarn add galsenify
 ```
 
@@ -36,7 +38,40 @@ console.log(galsenify.regions());
 ]
 ```
 
+## Liste des commandes disponibles 🧩
+
+```js
+// Obtenez toutes les données sur le Sénégal.
+console.log(galsenify.sn());
+
+// Obtenez toutes les langues nationales.
+console.log(galsenify.langNat());
+
+// Obtenez toutes les données sur les régions.
+console.log(galsenify.rg());
+
+// Obtenez la listes de toutes les régions.
+console.log(galsenify.regions());
+
+// Obtenez les départements par région.
+// remplacer "valeur" par une région existante (exemple : Dakar)
+console.log(galsenify.departments("valeur"));
+
+// Obtenez le nombre d'habitants par région.
+// remplacer "valeur" par une région existante (exemple : thies)
+console.log(galsenify.population("value"));
+
+// Obtenez la superficie par région.
+// remplacer "valeur" par une région existante (exemple : KAOLACK)
+console.log(galsenify.area("value"));
+
+// Obtenez le code de toutes les régions.
+console.log(galsenify.codes());
+```
+
 ### Exemple ✅
+
+...
 
 ### Auteur 🌟
 
@@ -65,7 +100,7 @@ Vous pouvez m'offrir un café ☕ et aider le projet à grandir 🙌🏾
 
 ⚠️ Si vous souhaitez contribuer sur ce projet, veuillez d'abord consulter le **[Guide de Contribution](../../data/CONTRIBUTING.md)**.
 
-Si vous trouvez 🐞 ou que vous avez une 💡 sur l'évolution de ce projet, vous pouvez ouvrir un **[issue](https://github.com/daoodaba975/galsenify/issues/new)**.  
+Si vous trouvez 🐞 ou que vous avez une 💡 sur l'évolution de ce projet, vous pouvez ouvrir une **[issue](https://github.com/daoodaba975/galsenify/issues/new)**.  
 Je suis également disponible sur **[Twitter](https://twitter.com/daoodaba975)**.
 
 #### Changelog 🔁
