@@ -2,10 +2,10 @@
 
 This file lists all the changes according to the different versions.
 
-## 1.0.0 - ? [BETA] - First Release (00.00.2022)
+## 0.2.0 - October22 [BETA] - First Release (04.10.2022)
 
-- Feature ?
+- Every feature added.
 
-## Unreleased [ALPHA] (22.09.2022)
+### Unreleased [ALPHA] (22.09.2022)
 
 - Beginning
