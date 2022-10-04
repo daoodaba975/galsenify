@@ -56,7 +56,7 @@ module.exports = {
         }
     
         const response = findItem(_region);
-        return response.superficie;
+        return response.area;
     },
 
     //* Get all data about Senegal.
