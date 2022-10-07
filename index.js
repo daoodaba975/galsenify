@@ -2,8 +2,9 @@
 
 const sn = require("./src/senegal.json");
 const rg = require("./src/regions.json");
-const { LowerCase, findItem } = require("./utils");
-const { RegionReferenceError } = require("./exceptions.js");
+
+const { LowerCase, findItem } = require("./libs/utils");
+const { RegionReferenceError } = require("./libs/exceptions.js");
 
 module.exports = {
     
@@ -57,13 +58,13 @@ module.exports = {
         }
     
         const response = findItem(_region);
-        return response.area;
+        return response.superficie;
     },
 
     //* Get all data about Senegal.
     sn: () => sn,
 
     //* Get all national language.
-    langNat: () => sn.langNat,
+    languesNationales: () => sn.languesNationales,
 
 };
