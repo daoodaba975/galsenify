@@ -3,27 +3,28 @@
 const sn = require("./src/senegal.json");
 const rg = require("./src/regions.json");
 
-const LowerCase = (value) => value.toLowerCase().trim();
-const findItem = (value) => rg.find(item => LowerCase(item.region) === LowerCase(value));
+const { LowerCase, findItem } = require("./libs/utils");
+const { RegionReferenceError } = require("./libs/exceptions.js");
 
 module.exports = {
     
     //* Get all data about region.
     rg: () => rg,
 
-    //* Get all regions.
+    //* Get all regions names.
     regions: () => {
-        let regionList = [];
-        rg.map(({region}) => regionList.push(region));
+        let regionNames = [];
+
+        regionNames = rg.map(regionDetail => regionDetail.region);
         
-        return regionList;
+        return regionNames;
     },
     //* Get departments by region.
     departments: (region) => {
         let _region = LowerCase(region);
 
         if (!region || _region === "") {
-            throw new Error('Oups! Ce n\'est pas une région valide !');
+            throw new RegionReferenceError;
         }
 
         const response = findItem(_region);
@@ -32,7 +33,8 @@ module.exports = {
     //* Get all regions code.
     codes: () => {
         let codeList = [];
-        rg.map(({code}) => codeList.push(code));
+
+        codeList = rg.map(codeDetail => codeDetail.code);
         
         return codeList;
     },
@@ -41,7 +43,7 @@ module.exports = {
         let _region = LowerCase(region);
     
         if (!region || _region === "") {
-          throw new Error('Oups! Ce n\'est pas une région valide !');
+            throw new RegionReferenceError;
         }
     
         const response = findItem(_region);
@@ -52,22 +54,17 @@ module.exports = {
         let _region = LowerCase(region);
     
         if (!region || _region === "") {
-          throw new Error('Oups! Ce n\'est pas une région valide !');
+            throw new RegionReferenceError;
         }
     
         const response = findItem(_region);
-        return response.area;
+        return response.superficie;
     },
 
     //* Get all data about Senegal.
     sn: () => sn,
 
     //* Get all national language.
-    langNat: () => {
-        let langNatList = [];
-        sn.map(({langNat}) => langNatList.push(langNat));
-        
-        return langNatList;
-    },
+    languesNationales: () => sn.languesNationales,
 
 };
