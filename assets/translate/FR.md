@@ -45,7 +45,7 @@ console.log(galsenify.regions());
 console.log(galsenify.sn());
 
 // Obtenez toutes les langues nationales.
-console.log(galsenify.langNat());
+console.log(galsenify.languesNationales());
 
 // Obtenez toutes les données sur les régions.
 console.log(galsenify.rg());
@@ -59,11 +59,11 @@ console.log(galsenify.departments("valeur"));
 
 // Obtenez le nombre d'habitants par région.
 // remplacer "valeur" par une région existante (exemple : thies)
-console.log(galsenify.population("value"));
+console.log(galsenify.population("valeur"));
 
 // Obtenez la superficie par région.
 // remplacer "valeur" par une région existante (exemple : KAOLACK)
-console.log(galsenify.area("value"));
+console.log(galsenify.superficie("valeur"));
 
 // Obtenez le code de toutes les régions.
 console.log(galsenify.codes());
@@ -98,15 +98,15 @@ Vous pouvez m'offrir un café ☕ et aider le projet à grandir 🙌🏾
 
 ### Contribution 🌍
 
-⚠️ Si vous souhaitez contribuer sur ce projet, veuillez d'abord consulter le **[Guide de Contribution](../../data/CONTRIBUTING.md)**.
+⚠️ Si vous souhaitez contribuer sur ce projet, veuillez d'abord consulter le **[Guide de Contribution](../CONTRIBUTING.md)**.
 
 Si vous trouvez 🐞 ou que vous avez une 💡 sur l'évolution de ce projet, vous pouvez ouvrir une **[issue](https://github.com/daoodaba975/galsenify/issues/new)**.  
 Je suis également disponible sur **[Twitter](https://twitter.com/daoodaba975)**.
 
 #### Changelog 🔁
 
-Vous pouvez aussi consulter le **[Changelog](../../data/CHANGELOG.md)** pour voir les différentes changements et évolutions entre les versions.
+Vous pouvez aussi consulter le **[Changelog](../CHANGELOG.md)** pour voir les différentes changements et évolutions entre les versions.
 
 #### License 🎫
 
-Ce package est publié sous **[License MIT](../../data/LICENCE.md)** ✔
+Ce package est publié sous **[License MIT](../LICENCE.md)** ✔
