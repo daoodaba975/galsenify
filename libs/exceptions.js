@@ -1,4 +1,3 @@
-
 class RegionReferenceError extends ReferenceError {
 	constructor() {
 		super();
