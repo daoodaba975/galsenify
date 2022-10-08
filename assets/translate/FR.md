@@ -75,21 +75,7 @@ console.log(galsenify.codes());
 
 ### Auteur 🌟
 
-<table>
-  <tr>
-    <td align="center">
-        <a href="https://github.com/daoodaba975">
-            <img src="https://avatars.githubusercontent.com/daoodaba975" width="80px;" alt=""/>
-            <br/>
-            <sub><b>Daouda BA</b></sub>
-        </a>
-            <br/>
-        <a href="https://daooda.dev" title="Website">🌐</a>
-        <a href="https://twitter.com/daoodaba975" title="Twitter">🐤</a>
-    </td>
-  </tr>
-</table>
-
+[![Daouda BA](https://avatars.githubusercontent.com/daoodaba975?s=64)](https://github.com/daoodaba975)  
 Créé par **[Daouda BA](https://github.com/daoodaba975)**
 
 Vous pouvez m'offrir un café ☕ et aider le projet à grandir 🙌🏾
@@ -102,6 +88,10 @@ Vous pouvez m'offrir un café ☕ et aider le projet à grandir 🙌🏾
 
 Si vous trouvez 🐞 ou que vous avez une 💡 sur l'évolution de ce projet, vous pouvez ouvrir une **[issue](https://github.com/daoodaba975/galsenify/issues/new)**.  
 Je suis également disponible sur **[Twitter](https://twitter.com/daoodaba975)**.
+
+Un merci spécial à [Dame LEYE (Honorable Con)](https://github.com/honorableCon) pour sa contribution sur ce projet.
+
+[![Honorable Con](https://avatars.githubusercontent.com/honorableCon?s=64)](https://github.com/honorableCon)
 
 #### Changelog 🔁
 
