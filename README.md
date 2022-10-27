@@ -57,16 +57,16 @@ console.log(galsenify.rg());
 console.log(galsenify.regions());
 
 // Get departments by region.
-// replace "value" by an existing department (example : Dakar)
-console.log(galsenify.departments("value"));
+// replace "region" by an existing region (example : Dakar)
+console.log(galsenify.departments("region"));
 
 // Get populations by region.
-// replace "value" by an existing department (example : thies)
-console.log(galsenify.population("value"));
+// replace "region" by an existing region (example : thies)
+console.log(galsenify.population("region"));
 
 // Get area by region.
-// replace "value" by an existing department (example : KAOLACK)
-console.log(galsenify.superficie("value"));
+// replace "region" by an existing region (example : KAOLACK)
+console.log(galsenify.superficie("region"));
 
 // Get all regions code.
 console.log(galsenify.codes());

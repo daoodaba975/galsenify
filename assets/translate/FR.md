@@ -54,16 +54,16 @@ console.log(galsenify.rg());
 console.log(galsenify.regions());
 
 // Obtenez les départements par région.
-// remplacer "valeur" par une région existante (exemple : Dakar)
-console.log(galsenify.departments("valeur"));
+// remplacer "region" par une région existante (exemple : Dakar)
+console.log(galsenify.departments("region"));
 
 // Obtenez le nombre d'habitants par région.
-// remplacer "valeur" par une région existante (exemple : thies)
-console.log(galsenify.population("valeur"));
+// remplacer "region" par une région existante (exemple : thies)
+console.log(galsenify.population("region"));
 
 // Obtenez la superficie par région.
-// remplacer "valeur" par une région existante (exemple : KAOLACK)
-console.log(galsenify.superficie("valeur"));
+// remplacer "region" par une région existante (exemple : KAOLACK)
+console.log(galsenify.superficie("region"));
 
 // Obtenez le code de toutes les régions.
 console.log(galsenify.codes());
