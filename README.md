@@ -80,7 +80,7 @@ console.log(galsenify.codes());
 
 Coming soon ⏳...
 
-### Author 🌟
+## Author 🌟
 
 [![Daouda BA](https://avatars.githubusercontent.com/daoodaba975?s=64)](https://github.com/daoodaba975)  
 Created by **[Daouda BA](https://github.com/daoodaba975)**
