@@ -1,9 +1,13 @@
 # Galsenify 📦💫
 
+![COVER](../img/cover.png)
+
 **Galsenify** est un package qui vous facilite la manipulation de données sur le Sénégal.  
 Il offre une multitude d'information sur le Sénégal.
 
-## Installer 📥
+- Version actuelle ➡️ 1.0.0
+
+## Installation 📥
 
 `via Npm`
 
@@ -71,7 +75,7 @@ console.log(galsenify.codes());
 
 ### Exemple ✅
 
-...
+Ca arrive bientôt ⏳...
 
 ### Auteur 🌟
 
@@ -86,7 +90,7 @@ Vous pouvez m'offrir un café ☕ et aider le projet à grandir 🙌🏾
 
 ⚠️ Si vous souhaitez contribuer sur ce projet, veuillez d'abord consulter le **[Guide de Contribution](../CONTRIBUTING.md)**.
 
-Si vous trouvez 🐞 ou que vous avez une 💡 sur l'évolution de ce projet, vous pouvez ouvrir une **[issue](https://github.com/daoodaba975/galsenify/issues/new)**.  
+Si vous trouvez un 🐞 (bug) ou que vous avez une 💡 (idée) sur l'évolution de ce projet, vous pouvez ouvrir une **[issue](https://github.com/daoodaba975/galsenify/issues/new)**.  
 Je suis également disponible sur **[Twitter](https://twitter.com/daoodaba975)**.
 
 Un merci spécial à [Dame LEYE (Honorable Con)](https://github.com/honorableCon) pour sa contribution sur ce projet.

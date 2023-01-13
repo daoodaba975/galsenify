@@ -1,9 +1,13 @@
 # Galsenify 📦💫
 
+![COVER](assets/img/cover.png)
+
+***Lire en [Français](./assets/translate/FR.md)***
+
 **Galsenify** is a package that allows you to easily manipulate data about Senegal.  
 It offers a lot of information about Senegal.
 
-***Lire en [Français](./assets/translate/FR.md)***
+- Current version ➡️ 1.0.0
 
 ## Install 📥
 
@@ -74,7 +78,7 @@ console.log(galsenify.codes());
 
 ## Example ✅
 
-...
+Coming soon ⏳...
 
 ### Author 🌟
 
