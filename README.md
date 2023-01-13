@@ -11,16 +11,22 @@ It offers a lot of information about Senegal.
 
 ## Install 📥
 
-`via Npm`
+`via NPM`
 
 ```bash
 npm i galsenify
 ```
 
-`or Yarn`
+`via YARN`
 
 ```bash
 yarn add galsenify
+```
+
+`via PNPM`
+
+```bash
+pnpm i galsenify
 ```
 
 ## Usage 💡
