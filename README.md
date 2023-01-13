@@ -89,7 +89,7 @@ You can buy me a coffee ☕ and help the project to grow up 🙌🏾
 
 <a href="https://www.buymeacoffee.com/daoodaba975" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important; border-radius: 10px;" ></a>
 
-### Contributing 🌍
+## Contributing 🌍
 
 ⚠️ If you want contribute on this project, please check firt the **[Contributing Guide](./assets/CONTRIBUTING.md)**.
 
@@ -100,10 +100,10 @@ A special thanks to [Dame LEYE (Honorable Con)](https://github.com/honorableCon)
 
 [![Honorable Con](https://avatars.githubusercontent.com/honorableCon?s=64)](https://github.com/honorableCon)
 
-#### Changelog 🔁
+## Changelog 🔁
 
 You can also consult the **[Changelog](./assets/CHANGELOG.md)** to see the different changes and evolution between versions.
 
-#### Licence 🎫
+## Licence 🎫
 
 This package is released under the **[MIT Licence](./assets/LICENCE.md)** ✔
