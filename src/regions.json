@@ -1,97 +1,97 @@
 [
     {
-        "region": "Dakar",
+        "nom": "Dakar",
         "code": "DK",
         "population": 3938358,
         "superficie": 547,
         "departments": ["Dakar", "Pikine", "Guédiawaye", "Rufisque"]
     },
     {
-        "region": "Diourbel",
+        "nom": "Diourbel",
         "code": "DB",
         "population": 1919090,
         "superficie": 4824,
         "departments": ["Diourbel", "Bambey", "Mbacké"]
     },
     {
-        "region": "Fatick",
+        "nom": "Fatick",
         "code": "FK",
         "population": 932629,
         "superficie": 6849,
         "departments": ["Fatick", "Foundiougne", "Gossas"]
     },
     {
-        "region": "Kaffrine",
+        "nom": "Kaffrine",
         "code": "KA",
         "population": 755172,
         "superficie": 11262,
         "departments": ["Kaffrine", "Birkilane", "Malème-Hodar", "Koungheul"]
     },
     {
-        "region": "Kaolack",
+        "nom": "Kaolack",
         "code": "KL",
         "population": 1228746,
         "superficie": 5357,
         "departments": ["Kaolack", "Guinguinéo", "Nioro du Rip"]
     },
     {
-        "region": "Kédougou",
+        "nom": "Kédougou",
         "code": "KE",
         "population": 196991,
         "superficie": 16800,
         "departments": ["Kédougou", "Salémata", "Saraya"]
     },
     {
-        "region": "Kolda",
+        "nom": "Kolda",
         "code": "KD",
         "population": 848348,
         "superficie": 13771,
         "departments": ["Kolda", "Médina Yoro Foulah", "Vélingara"]
     },
     {
-        "region": "Louga",
+        "nom": "Louga",
         "code": "LG",
         "population": 1091268,
         "superficie": 24889,
         "departments": ["Louga", "Kébémer", "Linguère"]
     },
     {
-        "region": "Matam",
+        "nom": "Matam",
         "code": "MT",
         "population": 760588,
         "superficie": 29445,
         "departments": ["Matam", "Kanel", "Ranérou"]
     },
     {
-        "region": "Saint-Louis",
+        "nom": "Saint-Louis",
         "code": "SL",
         "population": 1120585,
         "superficie": 19241,
         "departments": ["Saint-Louis", "Dagana", "Podor"]
     },
     {
-        "region": "Sédhiou",
+        "nom": "Sédhiou",
         "code": "SE",
         "population": 591970,
         "superficie": 7341,
         "departments": ["Sédhiou", "Bounkiling", "Goudomp"]
     },
     {
-        "region": "Tambacounda",
+        "nom": "Tambacounda",
         "code": "TC",
         "population": 904032,
         "superficie": 42364,
         "departments": ["Tambacounda", "Goudiry", "Bakel", "Koumpentoum"]
     },
     {
-        "region": "Thies",
+        "nom": "Thies",
         "code": "TH",
         "population": 2221097,
         "superficie": 6670,
         "departments": ["Thies", "Tivaouane", "Mbour"]
     },
     {
-        "region": "Ziguinchor",
+        "nom": "Ziguinchor",
         "code": "ZG",
         "population": 706554,
         "superficie": 7352,
