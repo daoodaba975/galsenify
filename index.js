@@ -1,7 +1,7 @@
 "use strict";
 
-const sn = require("./src/senegal.json");
-const rg = require("./src/regions.json");
+const sn = require("./dataset/senegal.json");
+const rg = require("./dataset/regions.json");
 
 const { LowerCase, findItem } = require("./libs/utils");
 const { RegionReferenceError } = require("./libs/exceptions.js");

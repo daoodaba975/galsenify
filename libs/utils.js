@@ -1,4 +1,4 @@
-const rg = require("../src/regions.json");
+const rg = require("../dataset/regions.json");
 
 const LowerCase = (value) => value.toLowerCase().trim();
 const findItem = (value) => {
