@@ -1,13 +1,13 @@
 const rg = require("../dataset/regions.json");
 
-const LowerCase = (value) => value.toLowerCase().trim();
 const findItem = (value) => {
-	const result = rg.find(item => LowerCase(item.region) === LowerCase(value));
+	const region = rg.find(
+		(region) => lowerCase(region.nom) === lowerCase(value)
+	);
 
-	if (result == undefined)
-		throw new RegionReferenceError;
+	if (region === undefined) throw new RegionReferenceError();
 
-	return result;
+	return region;
 }
 
-module.exports = { LowerCase, findItem };
+module.exports = { lowerCase, findItem };

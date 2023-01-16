@@ -3,68 +3,62 @@
 const sn = require("./dataset/senegal.json");
 const rg = require("./dataset/regions.json");
 
-const { LowerCase, findItem } = require("./libs/utils");
+const { lowerCase, findItem } = require("./libs/utils");
 const { RegionReferenceError } = require("./libs/exceptions.js");
 
 module.exports = {
-    
-    //* Get all data about region.
-    rg: () => rg,
+  //* Get all data about region.
+  rg: () => rg,
 
-    //* Get all regions names.
-    regions: () => {
-        let regionNames = [];
+  //* Get all regions names.
+  regions: () => {
+    return rg.map((region) => region.nom);
+  },
 
-        regionNames = rg.map(regionDetail => regionDetail.region);
-        
-        return regionNames;
-    },
-    //* Get departments by region.
-    departments: (region) => {
-        let _region = LowerCase(region);
+  //* Get all regions code.
+  codes: () => {
+    return rg.map((region) => region.code);
+  },
 
-        if (!region || _region === "") {
-            throw new RegionReferenceError;
-        }
+  //* Get departments by region.
+  departments: (regionName) => {
+    regionName = lowerCase(regionName);
 
-        const response = findItem(_region);
-        return response.departments;
-    },
-    //* Get all regions code.
-    codes: () => {
-        let codeList = [];
+    if (regionName.length == 0) {
+      throw new RegionReferenceError();
+    }
 
-        codeList = rg.map(codeDetail => codeDetail.code);
-        
-        return codeList;
-    },
-    //* Get populations by region.
-    population: (region) => {
-        let _region = LowerCase(region);
-    
-        if (!region || _region === "") {
-            throw new RegionReferenceError;
-        }
-    
-        const response = findItem(_region);
-        return response.population;
-    },
-    //* Get area by region.
-    superficie: (region) => {
-        let _region = LowerCase(region);
-    
-        if (!region || _region === "") {
-            throw new RegionReferenceError;
-        }
-    
-        const response = findItem(_region);
-        return response.superficie;
-    },
+    const { departments } = findItem(regionName);
+    return departments;
+  },
 
-    //* Get all data about Senegal.
-    sn: () => sn,
+  //* Get populations by region.
+  population: (regionName) => {
+    regionName = lowerCase(regionName);
 
-    //* Get all national language.
-    languesNationales: () => sn.languesNationales,
+    if (regionName.length == 0) {
+      throw new RegionReferenceError();
+    }
 
+    const { population } = findItem(regionName);
+    return population;
+  },
+
+  //* Get area by region.
+  superficie: (regionName) => {
+    regionName = lowerCase(regionName);
+
+    if (regionName.length == 0) {
+      throw new RegionReferenceError();
+    }
+
+    const { superficie } = findItem(regionName);
+    return superficie;
+  },
+
+  //* Get all data about Senegal.
+  sn: () => sn,
+
+  //* Get all national language.
+  languesNationales: () => sn.languesNationales,
 };
