@@ -106,6 +106,12 @@ A special thanks to [Dame LEYE (Honorable Con)](https://github.com/honorableCon)
 
 [![Honorable Con](https://avatars.githubusercontent.com/honorableCon?s=64)](https://github.com/honorableCon)
 
+Thanks to all contributors 👏🏽
+
+<a href="https://github.com/daoodaba975/galsenify/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=daoodaba975/galsenify" />
+</a>
+
 ## Changelog 🔁
 
 You can also consult the **[Changelog](./assets/CHANGELOG.md)** to see the different changes and evolution between versions.

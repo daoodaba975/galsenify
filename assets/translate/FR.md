@@ -9,16 +9,22 @@ Il offre une multitude d'information sur le Sénégal.
 
 ## Installation 📥
 
-`via Npm`
+`via NPM`
 
 ```bash
 npm i galsenify
 ```
 
-`ou Yarn`
+`via YARN`
 
 ```bash
 yarn add galsenify
+```
+
+`via PNPM`
+
+```bash
+pnpm i galsenify
 ```
 
 ## Utilisation 💡
@@ -96,6 +102,12 @@ Je suis également disponible sur **[Twitter](https://twitter.com/daoodaba975)**
 Un merci spécial à [Dame LEYE (Honorable Con)](https://github.com/honorableCon) pour sa contribution sur ce projet.
 
 [![Honorable Con](https://avatars.githubusercontent.com/honorableCon?s=64)](https://github.com/honorableCon)
+
+Merci à tous les contributeurs 👏🏽
+
+<a href="https://github.com/daoodaba975/galsenify/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=daoodaba975/galsenify" />
+</a>
 
 #### Changelog 🔁
 
