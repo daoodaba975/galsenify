@@ -116,3 +116,5 @@ Vous pouvez aussi consulter le **[Changelog](../CHANGELOG.md)** pour voir les di
 #### License 🎫
 
 Ce package est publié sous **[License MIT](../LICENCE.md)** ✔
+
+[![Made-In-Senegal](https://github.com/GalsenDev221/made.in.senegal/blob/master/assets/badge.svg)](https://github.com/GalsenDev221/made.in.senegal)

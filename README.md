@@ -119,3 +119,5 @@ You can also consult the **[Changelog](./assets/CHANGELOG.md)** to see the diffe
 ## Licence 🎫
 
 This package is released under the **[MIT Licence](./assets/LICENCE.md)** ✔
+
+[![Made-In-Senegal](https://github.com/GalsenDev221/made.in.senegal/blob/master/assets/badge.svg)](https://github.com/GalsenDev221/made.in.senegal)
