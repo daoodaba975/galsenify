@@ -2,14 +2,14 @@
     {
         "nom": "Dakar",
         "code": "DK",
-        "population": 3938358,
+        "population": 4042225,
         "superficie": 547,
-        "departments": ["Dakar", "Pikine", "Guédiawaye", "Rufisque"]
+        "departments": ["Dakar", "Pikine", "Guédiawaye", "Rufisque", "Keur Massar"]
     },
     {
         "nom": "Diourbel",
         "code": "DB",
-        "population": 1919090,
+        "population": 1980821,
         "superficie": 4824,
         "departments": ["Diourbel", "Bambey", "Mbacké"]
     },
@@ -23,77 +23,77 @@
     {
         "nom": "Kaffrine",
         "code": "KA",
-        "population": 755172,
+        "population": 782273,
         "superficie": 11262,
         "departments": ["Kaffrine", "Birkilane", "Malème-Hodar", "Koungheul"]
     },
     {
         "nom": "Kaolack",
         "code": "KL",
-        "population": 1228746,
+        "population": 1267014,
         "superficie": 5357,
         "departments": ["Kaolack", "Guinguinéo", "Nioro du Rip"]
     },
     {
         "nom": "Kédougou",
         "code": "KE",
-        "population": 196991,
+        "population": 203723,
         "superficie": 16800,
         "departments": ["Kédougou", "Salémata", "Saraya"]
     },
     {
         "nom": "Kolda",
         "code": "KD",
-        "population": 848348,
+        "population": 875660,
         "superficie": 13771,
         "departments": ["Kolda", "Médina Yoro Foulah", "Vélingara"]
     },
     {
         "nom": "Louga",
         "code": "LG",
-        "population": 1091268,
+        "population": 1121619,
         "superficie": 24889,
         "departments": ["Louga", "Kébémer", "Linguère"]
     },
     {
         "nom": "Matam",
         "code": "MT",
-        "population": 760588,
+        "population": 789219,
         "superficie": 29445,
         "departments": ["Matam", "Kanel", "Ranérou"]
     },
     {
         "nom": "Saint-Louis",
         "code": "SL",
-        "population": 1120585,
+        "population": 1150062,
         "superficie": 19241,
         "departments": ["Saint-Louis", "Dagana", "Podor"]
     },
     {
         "nom": "Sédhiou",
         "code": "SE",
-        "population": 591970,
+        "population": 612649,
         "superficie": 7341,
         "departments": ["Sédhiou", "Bounkiling", "Goudomp"]
     },
     {
         "nom": "Tambacounda",
         "code": "TC",
-        "population": 904032,
+        "population": 937182,
         "superficie": 42364,
         "departments": ["Tambacounda", "Goudiry", "Bakel", "Koumpentoum"]
     },
     {
         "nom": "Thies",
         "code": "TH",
-        "population": 2221097,
+        "population": 2280458,
         "superficie": 6670,
         "departments": ["Thies", "Tivaouane", "Mbour"]
     },
     {
         "nom": "Ziguinchor",
         "code": "ZG",
-        "population": 706554,
+        "population": 729951,
         "superficie": 7352,
         "departments": ["Ziguinchor", "Bignona", "Oussouye"]
     }
