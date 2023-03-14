@@ -8,6 +8,8 @@
     "drapeau": "https://cdn.countryflags.com/thumbs/senegal/flag-400.png",
     "codeIso": "SN",
     "indicatif": 221,
-    "habitants": 17215428,
-    "surface": 196712
+    "habitants": 17738795,
+    "surface": 196712,
+    "regions": 14,
+    "departments": 46
 }

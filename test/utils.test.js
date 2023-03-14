@@ -11,9 +11,9 @@ describe("Utils testing", () => {
     expect(region).toEqual({
       nom: "Dakar",
       code: "DK",
-      population: 3938358,
+      population: 4042225,
       superficie: 547,
-      departments: ["Dakar", "Pikine", "Guédiawaye", "Rufisque"],
+      departments: ["Dakar", "Pikine", "Guédiawaye", "Rufisque", "Keur Massar"],
     });
   });
 
@@ -21,3 +21,22 @@ describe("Utils testing", () => {
     expect(() => utils.findItem("Abidjan")).toThrow();
   });
 });
+
+
+describe("Utils testing with Department", () => {
+    test("should find the department", () => {
+        const department = utils.departmentItem("Dakar");
+        expect(department).toBeTruthy();
+        expect(department).toEqual({
+          nom: "Dakar",
+          region: "Dakar",
+          population: 1030594,
+          superficie: 79,
+          arrondissements: ["Almadies", "Dakar Plateau", "Grand Dakar", "Parcelles Assainies"],
+        });
+      });
+    
+    test("should not find the department", () => {
+    expect(() => utils.departmentItem("Paris")).toThrow();
+    });
+})
