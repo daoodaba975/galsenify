@@ -2,9 +2,10 @@
 
 const sn = require("./dataset/senegal.json");
 const rg = require("./dataset/regions.json");
+const dp = require("./dataset/departments.json");
 
-const { lowerCase, findItem } = require("./libs/utils");
-const { RegionReferenceError } = require("./libs/exceptions.js");
+const { lowerCase, findItem, departmentItem } = require("./libs/utils");
+const { RegionReferenceError, DepartmentReferenceError } = require("./libs/exceptions.js");
 
 module.exports = {
   //* Get all data about region.
@@ -55,6 +56,49 @@ module.exports = {
     const { superficie } = findItem(regionName);
     return superficie;
   },
+
+  // Get Data from different departments
+  //* Get all departements Names.
+  allDepartments: () => {
+    return dp.map((department) => department.nom);
+  },
+
+  //* Get arrondissement by department.
+  arrondissements: (departmentName) => {
+    departmentName = lowerCase(departmentName);
+
+    if (departmentName.length == 0) {
+      throw new DepartmentReferenceError();
+    }
+
+    const { arrondissements } = departmentItem(departmentName);
+    return arrondissements;
+  },
+
+  //* Get populations by department.
+  populationDepartment: (departmentName) => {
+    departmentName = lowerCase(departmentName);
+
+    if (departmentName.length == 0) {
+      throw new DepartmentReferenceError();
+    }
+
+    const { population } = departmentItem(departmentName);
+    return population;
+  },
+
+  //* Get area by department.
+  superficieDepartment: (departmentName) => {
+    departmentName = lowerCase(departmentName);
+
+    if (departmentName.length == 0) {
+      throw new DepartmentReferenceError();
+    }
+
+    const { superficie } = departmentItem(departmentName);
+    return superficie;
+  },
+
 
   //* Get all data about Senegal.
   sn: () => sn,

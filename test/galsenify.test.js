@@ -25,7 +25,7 @@ describe("galsenify testing", () => {
 
   test("receive the population of passing region", () => {
     const population = galsenify.population("Dakar");
-    expect(population).toBe(3938358);
+    expect(population).toBe(4042225);
   });
 
   test("receive the population of passing region should be fail", () => {

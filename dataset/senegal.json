@@ -9,5 +9,7 @@
     "codeIso": "SN",
     "indicatif": 221,
     "habitants": 17738795,
-    "surface": 196712
+    "surface": 196712,
+    "regions": 14,
+    "departments": 46
 }

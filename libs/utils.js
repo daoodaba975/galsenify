@@ -1,4 +1,6 @@
 const rg = require("../dataset/regions.json");
+const dp = require("../dataset/departments.json");
+// const { DepartmentReferenceError } = require("./exceptions");
 
 const lowerCase = (value) => value.toLowerCase().trim();
 
@@ -12,4 +14,14 @@ const findItem = (value) => {
 	return region;
 }
 
-module.exports = { lowerCase, findItem };
+const departmentItem = (value) => {
+	const department = dp.find(
+		(department) => lowerCase(department.nom) === lowerCase(value)
+	);
+
+	if (department === undefined) throw new DepartmentReferenceError();;
+
+	return department;
+}
+
+module.exports = { lowerCase, findItem, departmentItem };
