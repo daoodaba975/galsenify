@@ -18,14 +18,8 @@ describe("Department testing", () => {
     expect(() => department.arrondissements("")).toThrow();
   });
 
-  // test("The department is part of the region", () => {
-  //   const region = department.regions();
-  //   expect(region.length).toBeGreaterThan(0);
-  //   expect(region).toContain("Dakar").length;
-  // });
-
   test("receive the population of passing department", () => {
-    const population = department.populationDepartment("Keur massar");
+    const population = department.populationDepartment("Keur-massar");
     expect(population).toBe(793000);
   });
 
@@ -35,7 +29,7 @@ describe("Department testing", () => {
   });
 
   test("receive the superficie of passing department should be fail", () => {
-    expect(() => department.superficieDepartment("West Ham")).toThrow();
+    expect(() => department.superficieDepartment("Sicap-Mbao")).toThrow();
     expect(() => department.superficieDepartment("")).toThrow();
   });
 

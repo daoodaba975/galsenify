@@ -4,7 +4,7 @@
         "code": "DK",
         "population": 4042225,
         "superficie": 547,
-        "departments": ["Dakar", "Pikine", "Guédiawaye", "Rufisque", "Keur Massar"]
+        "departments": ["Dakar", "Pikine", "Guédiawaye", "Rufisque", "Keur-Massar"]
     },
     {
         "nom": "Diourbel",
@@ -32,7 +32,7 @@
         "code": "KL",
         "population": 1267014,
         "superficie": 5357,
-        "departments": ["Kaolack", "Guinguinéo", "Nioro du Rip"]
+        "departments": ["Kaolack", "Guinguinéo", "Nioro-du-Rip"]
     },
     {
         "nom": "Kédougou",
@@ -46,7 +46,7 @@
         "code": "KD",
         "population": 875660,
         "superficie": 13771,
-        "departments": ["Kolda", "Médina Yoro Foulah", "Vélingara"]
+        "departments": ["Kolda", "Médina-Yoro-Foulah", "Vélingara"]
     },
     {
         "nom": "Louga",

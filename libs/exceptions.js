@@ -6,6 +6,7 @@ class RegionReferenceError extends ReferenceError {
 	}
 }
 
+
 class DepartmentReferenceError extends ReferenceError {
 	constructor() {
 		super();

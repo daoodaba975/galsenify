@@ -1,6 +1,5 @@
 const rg = require("../dataset/regions.json");
 const dp = require("../dataset/departments.json");
-// const { DepartmentReferenceError } = require("./exceptions");
 
 const lowerCase = (value) => value.toLowerCase().trim();
 
