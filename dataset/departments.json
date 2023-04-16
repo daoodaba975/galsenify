@@ -109,7 +109,7 @@
         "region": "Tambacounda",
         "population": 342204,
         "superficie": 13372 ,
-        "departments": ["Koussanar", "Makacolibantang", "Missirah"]
+        "arrondissements": ["Koussanar", "Makacolibantang", "Missirah"]
     },
     {
         "nom": "Goudiry",
