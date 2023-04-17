@@ -5,7 +5,7 @@ describe("Utils testing", () => {
     expect(utils.lowerCase("GALSEN")).toBe("galsen");
   });
 
-  test("should find the rigion", () => {
+  test("should find the region", () => {
     const region = utils.findItem("Dakar");
     expect(region).toBeTruthy();
     expect(region).toEqual({
@@ -17,21 +17,23 @@ describe("Utils testing", () => {
     });
   });
 
-  test("should not find the rigion", () => {
+  test("should not find the region", () => {
     expect(() => utils.findItem("Abidjan")).toThrow();
   });
 });
 
 
 describe("Utils testing with Department", () => {
+    test("should make the text to lowerCase", () => {
+        expect(utils.lowerCase("DAKAR")).toBe("dakar");
+    })
+
     test("should find the department", () => {
         const department = utils.departmentItem("Dakar");
         expect(department).toBeTruthy();
         expect(department).toEqual({
           nom: "Dakar",
           region: "Dakar",
-          population: 1030594,
-          superficie: 79,
           arrondissements: ["Almadies", "Dakar Plateau", "Grand Dakar", "Parcelles Assainies"],
         });
       });
