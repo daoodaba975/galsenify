@@ -5,7 +5,7 @@ describe("Utils testing", () => {
     expect(utils.lowerCase("GALSEN")).toBe("galsen");
   });
 
-  test("should find the rigion", () => {
+  test("should find the region", () => {
     const region = utils.findItem("Dakar");
     expect(region).toBeTruthy();
     expect(region).toEqual({
@@ -17,7 +17,7 @@ describe("Utils testing", () => {
     });
   });
 
-  test("should not find the rigion", () => {
+  test("should not find the region", () => {
     expect(() => utils.findItem("Abidjan")).toThrow();
   });
 });
