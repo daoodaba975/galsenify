@@ -24,14 +24,16 @@ describe("Utils testing", () => {
 
 
 describe("Utils testing with Department", () => {
+    test("should make the text to lowerCase", () => {
+        expect(utils.lowerCase("DAKAR")).toBe("dakar");
+    })
+
     test("should find the department", () => {
         const department = utils.departmentItem("Dakar");
         expect(department).toBeTruthy();
         expect(department).toEqual({
           nom: "Dakar",
           region: "Dakar",
-          population: 1030594,
-          superficie: 79,
           arrondissements: ["Almadies", "Dakar Plateau", "Grand Dakar", "Parcelles Assainies"],
         });
       });
