@@ -8,6 +8,7 @@ const { lowerCase, findItem, departmentItem } = require("./libs/utils");
 const { RegionReferenceError, DepartmentReferenceError } = require("./libs/exceptions.js");
 
 module.exports = {
+
   //* Get all data about region.
   rg: () => rg,
 
@@ -57,7 +58,6 @@ module.exports = {
     return superficie;
   },
 
-  // Get Data from different departments
   //* Get all departements Names.
   allDepartments: () => {
     return dp.map((department) => department.nom);
@@ -75,34 +75,10 @@ module.exports = {
     return arrondissements;
   },
 
-  //* Get populations by department.
-  populationDepartment: (departmentName) => {
-    departmentName = lowerCase(departmentName);
-
-    if (departmentName.length == 0) {
-      throw new DepartmentReferenceError();
-    }
-
-    const { population } = departmentItem(departmentName);
-    return population;
-  },
-
-  //* Get area by department.
-  superficieDepartment: (departmentName) => {
-    departmentName = lowerCase(departmentName);
-
-    if (departmentName.length == 0) {
-      throw new DepartmentReferenceError();
-    }
-
-    const { superficie } = departmentItem(departmentName);
-    return superficie;
-  },
-
-
   //* Get all data about Senegal.
   sn: () => sn,
 
   //* Get all national language.
   languesNationales: () => sn.languesNationales,
+
 };
