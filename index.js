@@ -8,20 +8,47 @@ const { lowerCase, findItem, departmentItem } = require("./libs/utils");
 const { RegionReferenceError, DepartmentReferenceError } = require("./libs/exceptions.js");
 
 module.exports = {
-  //* Get all data about region.
+  /**
+   * Get all data about the regions
+   *
+   * @typedef Region
+   * @property {string} nom
+   * @property {string} code
+   * @property {number} population
+   * @property {number} superficie
+   * @property {string[]} departments
+   *
+   * @returns {Region[]} The regions
+   */
   rg: () => rg,
 
-  //* Get all regions names.
+  /**
+   * Get all regions name.
+   *
+   * @returns {string[]} The region names
+   */
   regions: () => {
     return rg.map((region) => region.nom);
   },
 
-  //* Get all regions code.
+  /**
+   * Get all regions code.
+   *
+   * @returns {string[]} The region codes
+   */
   codes: () => {
     return rg.map((region) => region.code);
   },
 
-  //* Get departments by region.
+  /**
+   * Get departments by region.
+   *
+   * @param {string} regionName The name of the region
+   *
+   * @throws {RegionReferenceError} Argument regionName should not be empty
+   *
+   * @returns {string[]} The departments for a region
+   */
   departments: (regionName) => {
     regionName = lowerCase(regionName);
 
@@ -33,7 +60,15 @@ module.exports = {
     return departments;
   },
 
-  //* Get populations by region.
+  /**
+   * Get the population count by region.
+   *
+   * @param{string} regionName - The name of the region
+   *
+   * @throws {RegionReferenceError} Argument regionName should not be empty
+   *
+   * @returns {number} The population of a region
+   */
   population: (regionName) => {
     regionName = lowerCase(regionName);
 
@@ -45,7 +80,15 @@ module.exports = {
     return population;
   },
 
-  //* Get area by region.
+  /**
+   * Get area by region.
+   *
+   * @param{string} regionName - The name of the region
+   *
+   * @throws {RegionReferenceError} Argument regionName should not be empty
+   *
+   * @returns {number} The area of a region
+   */
   superficie: (regionName) => {
     regionName = lowerCase(regionName);
 
@@ -58,12 +101,25 @@ module.exports = {
   },
 
   // Get Data from different departments
-  //* Get all departements Names.
+
+  /**
+   * Get all departments names
+   *
+   * @returns {string[]} The department names
+   */
   allDepartments: () => {
     return dp.map((department) => department.nom);
   },
 
-  //* Get arrondissement by department.
+  /**
+   * Get the arrondissements by departments.
+   *
+   * @param {string} departmentName - The name of the department
+   *
+   * @throws {DepartmentReferenceError} Argument departmentName should not be empty
+   *
+   * @returns {string[]} The arrondissements for a department
+   */
   arrondissements: (departmentName) => {
     departmentName = lowerCase(departmentName);
 
@@ -75,7 +131,15 @@ module.exports = {
     return arrondissements;
   },
 
-  //* Get populations by department.
+  /**
+   * Get the population count by departments.
+   *
+   * @param {string} departmentName - The name of the department
+   *
+   * @throws {DepartmentReferenceError} Argument departmentName should not be empty
+   *
+   * @returns {int} The population count for a department
+   */
   populationDepartment: (departmentName) => {
     departmentName = lowerCase(departmentName);
 
@@ -87,7 +151,15 @@ module.exports = {
     return population;
   },
 
-  //* Get area by department.
+  /**
+   * Get area by departments.
+   *
+   * @param {string} departmentName - The name of the department
+   *
+   * @throws {DepartmentReferenceError} Argument departmentName should not be empty
+   *
+   * @returns {int} The area for a department
+   */
   superficieDepartment: (departmentName) => {
     departmentName = lowerCase(departmentName);
 
@@ -100,9 +172,32 @@ module.exports = {
   },
 
 
-  //* Get all data about Senegal.
+  /**
+   * Get all data about Senegal.
+   *
+   * @typedef Country
+   * @property {string} pays
+   * @property {string} capital
+   * @property {string} langueOfficielle
+   * @property {string} languesNationales
+   * @property {string} monnaie
+   * @property {string} devise
+   * @property {string} drapeau
+   * @property {string} codeIso
+   * @property {number} indicatif
+   * @property {number} habitants
+   * @property {number} surface
+   * @property {number} regions
+   * @property {number} departments
+   *
+   * @returns {Country} The infos about a country
+   */
   sn: () => sn,
 
-  //* Get all national language.
+  /**
+   * Get all national language
+   *
+   * @returns {string[]} The national languages
+   */
   languesNationales: () => sn.languesNationales,
 };
