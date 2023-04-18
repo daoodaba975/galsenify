@@ -20,6 +20,7 @@ module.exports = {
    *
    * @returns {Region[]} The regions
    */
+
   rg: () => rg,
 
   /**
@@ -107,6 +108,7 @@ module.exports = {
    *
    * @returns {string[]} The department names
    */
+
   allDepartments: () => {
     return dp.map((department) => department.nom);
   },
@@ -200,4 +202,5 @@ module.exports = {
    * @returns {string[]} The national languages
    */
   languesNationales: () => sn.languesNationales,
+
 };
