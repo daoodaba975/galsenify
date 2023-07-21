@@ -53,7 +53,7 @@ module.exports = {
   departments: (regionName) => {
     regionName = lowerCase(regionName);
 
-    if (regionName.length == 0) {
+    if (regionName?.length == 0) {
       throw new RegionReferenceError();
     }
 
@@ -73,7 +73,7 @@ module.exports = {
   population: (regionName) => {
     regionName = lowerCase(regionName);
 
-    if (regionName.length == 0) {
+    if (regionName?.length == 0) {
       throw new RegionReferenceError();
     }
 
@@ -93,7 +93,7 @@ module.exports = {
   superficie: (regionName) => {
     regionName = lowerCase(regionName);
 
-    if (regionName.length == 0) {
+    if (regionName?.length == 0) {
       throw new RegionReferenceError();
     }
 
@@ -125,7 +125,7 @@ module.exports = {
   arrondissements: (departmentName) => {
     departmentName = lowerCase(departmentName);
 
-    if (departmentName.length == 0) {
+    if (departmentName?.length == 0) {
       throw new DepartmentReferenceError();
     }
 
@@ -145,7 +145,7 @@ module.exports = {
   populationDepartment: (departmentName) => {
     departmentName = lowerCase(departmentName);
 
-    if (departmentName.length == 0) {
+    if (departmentName?.length == 0) {
       throw new DepartmentReferenceError();
     }
 
@@ -165,7 +165,7 @@ module.exports = {
   superficieDepartment: (departmentName) => {
     departmentName = lowerCase(departmentName);
 
-    if (departmentName.length == 0) {
+    if (departmentName?.length == 0) {
       throw new DepartmentReferenceError();
     }
 
