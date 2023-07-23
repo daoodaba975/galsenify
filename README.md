@@ -2,7 +2,7 @@
 
 ![COVER](assets/img/cover.png)
 
-***Lire en [Français](./assets/translate/FR.md)***
+**_Lire en [Français](./assets/translate/FR.md)_**
 
 **Galsenify** is a package that allows you to easily manipulate data about Senegal.  
 It offers a lot of information about Senegal.
@@ -32,7 +32,7 @@ pnpm i galsenify
 ## Usage 💡
 
 ```js
-import galsenify from 'galsenify';
+import galsenify from "galsenify";
 // or
 const galsenify = require("galsenify");
 
@@ -41,14 +41,21 @@ console.log(galsenify.regions());
 
 // results
 [
-  'Dakar',   'Diourbel',
-  'Fatick',  'Kaffrine',
-  'Kaolack', 'Kédougou',
-  'Kolda',   'Louga',
-  'Matam',   'Saint-Louis',
-  'Sédhiou', 'Tambacounda',
-  'Thies',   'Ziguinchor'
-]
+  "Dakar",
+  "Diourbel",
+  "Fatick",
+  "Kaffrine",
+  "Kaolack",
+  "Kédougou",
+  "Kolda",
+  "Louga",
+  "Matam",
+  "Saint-Louis",
+  "Sédhiou",
+  "Tambacounda",
+  "Thies",
+  "Ziguinchor",
+];
 ```
 
 ## List of available commands 🧩
@@ -84,7 +91,7 @@ console.log(galsenify.codes());
 
 ## Example ✅
 
-Coming soon ⏳...
+**[Galsenify Demo](https://github.com/daoodaba975/galsenify.demo)** is a demo project to show you how to use the Galsenify package in Next.js project presented at #LiveKoorGalsenDEV event.
 
 ## Author 🌟
 

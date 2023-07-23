@@ -30,7 +30,7 @@ pnpm i galsenify
 ## Utilisation 💡
 
 ```js
-import galsenify from 'galsenify';
+import galsenify from "galsenify";
 // ou
 const galsenify = require("galsenify");
 
@@ -38,14 +38,21 @@ console.log(galsenify.regions());
 
 // resultats
 [
-  'Dakar',   'Diourbel',
-  'Fatick',  'Kaffrine',
-  'Kaolack', 'Kédougou',
-  'Kolda',   'Louga',
-  'Matam',   'Saint-Louis',
-  'Sédhiou', 'Tambacounda',
-  'Thies',   'Ziguinchor'
-]
+  "Dakar",
+  "Diourbel",
+  "Fatick",
+  "Kaffrine",
+  "Kaolack",
+  "Kédougou",
+  "Kolda",
+  "Louga",
+  "Matam",
+  "Saint-Louis",
+  "Sédhiou",
+  "Tambacounda",
+  "Thies",
+  "Ziguinchor",
+];
 ```
 
 ## Liste des commandes disponibles 🧩
@@ -81,7 +88,7 @@ console.log(galsenify.codes());
 
 ### Exemple ✅
 
-Ca arrive bientôt ⏳...
+**[Galsenify Demo](https://github.com/daoodaba975/galsenify.demo)** est un projet démo pour vous montrer comment utiliser le package Galsenify dans un projet Next.js présenté lors de l'événement #LiveKoorGalsenDEV.
 
 ### Auteur 🌟
 
