@@ -88,7 +88,7 @@ console.log(galsenify.codes());
 
 ### Exemple ✅
 
-**[Galsenify Demo](https://github.com/daoodaba975/galsenify.demo)** est un projet démo pour vous montrer comment utiliser le package Galsenify dans un projet Next.js présenté lors de l'événement #LiveKoorGalsenDEV.
+**[Galsenify Demo](https://github.com/daoodaba975/galsenify.demo)** est un projet démo pour vous montrer comment utiliser le package Galsenify dans un projet Next.js présenté lors de l'événement #LiveKoorGalsenDEV, vous pouvez voir en ligne [ici](https://galsenify.vercel.app).
 
 ### Auteur 🌟
 
