@@ -1,7 +1,7 @@
 {
   "name": "galsenify",
   "version": "1.0.0",
-  "description": "📦💫 All about Senegal - A comprehensive TypeScript/JavaScript library for Senegalese data",
+  "description": "A comprehensive library for Senegalese data, it offers a lot of information about country of Teranga.",
   "type": "module",
   "types": "./dist/index.d.ts",
   "exports": {
