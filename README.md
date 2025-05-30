@@ -2,9 +2,10 @@
 
 ![COVER](assets/img/cover.png)
 
-**_Lire en [Français](./assets/translate/README-fr.md)_**
+**_Lire en [Français](./assets/translate/FR.md)_**
 
-**Galsenify** is a comprehensive library for Senegalese data, it offers a lot of information about country of Teranga.
+**Galsenify** is a package that allows you to easily manipulate data about Senegal.  
+It offers a lot of information about Senegal.
 
 - Current version ➡️ 1.0.0
 
@@ -90,18 +91,33 @@ console.log(galsenify.codes());
 
 ## Example ✅
 
-**[Galsenify Demo](https://github.com/daoodaba975/galsenify.demo)** is a demo project to show you how to use the Galsenify package in a Next.js project presented at #LiveKoorGalsenDEV event; you can see the live demo at [Galsenify Live Demo](https://galsenify.vercel.app).
+**[Galsenify Demo](https://github.com/daoodaba975/galsenify.demo)** is a demo project to show you how to use the Galsenify package in Next.js project presented at #LiveKoorGalsenDEV event, you can see live [here](https://galsenify.vercel.app).
+
+## Author 🌟
+
+[![Daouda BA](https://avatars.githubusercontent.com/daoodaba975?s=64)](https://github.com/daoodaba975)  
+Created by **[Daouda BA](https://github.com/daoodaba975)**
+
+You can buy me a coffee ☕ and help the project to grow up 🙌🏾
+
+<a href="https://www.buymeacoffee.com/daoodaba975" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important; border-radius: 10px;" ></a>
 
 ## Contributing 🌍
 
 ⚠️ If you want contribute on this project, please check firt the **[Contributing Guide](./assets/CONTRIBUTING.md)**.
 
 If you find 🐞 or you have a 💡 about the evolution of this project, you can open an **[issue](https://github.com/daoodaba975/galsenify/issues/new)**.  
-I'm also available on **[X (Twitter)](https://x.com/daoodaba975)**.
+I'm also available on **[Twitter](https://twitter.com/daoodaba975)**.
+
+A special thanks to [Dame LEYE (Honorable Con)](https://github.com/honorableCon) for his contribution on this project.
+
+[![Honorable Con](https://avatars.githubusercontent.com/honorableCon?s=64)](https://github.com/honorableCon)
 
 Thanks to all contributors 👏🏽
 
-![Contributors](https://contrib.rocks/image?repo=daoodaba975/galsenify)
+<a href="https://github.com/daoodaba975/galsenify/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=daoodaba975/galsenify" />
+</a>
 
 ## Changelog 🔁
 
