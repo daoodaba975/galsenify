@@ -1,12 +1,11 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import { Region, Department, Country } from './types.js';
-import snData from './dataset/senegal.json' assert { type: 'json' };
-import rgData from './dataset/regions.json' assert { type: 'json' };
-import dpData from './dataset/departments.json' assert { type: 'json' };
-import { lowerCase, findItem, departmentItem } from './libs/utils.js';
-import { RegionReferenceError, DepartmentReferenceError } from './libs/exceptions.js';
+import { Region, Department, Country } from "./types.js";
+import snData from "./dataset/senegal.json";
+import rgData from "./dataset/regions.json";
+import dpData from "./dataset/departments.json";
+import { lowerCase, findItem, departmentItem } from "./libs/utils";
+import { RegionReferenceError, DepartmentReferenceError } from "./libs/exceptions";
 
-// Convertir les données JSON en types appropriés
 const sn_data = snData as unknown as Country;
 const rg_data = rgData as unknown as Region[];
 const dp_data = dpData as unknown as Department[];
@@ -17,7 +16,6 @@ class Galsenify {
   private rg_data: Region[] = rg_data;
   private dp_data: Department[] = dp_data;
 
-  // Fonction pour obtenir toutes les données des régions
   rg(): Region[] {
     return this.rg_data;
   }
@@ -32,7 +30,7 @@ class Galsenify {
 
   departments(regionName: string): string[] {
     if (!regionName) {
-      throw new RegionReferenceError('Argument regionName should not be empty');
+      throw new RegionReferenceError("Argument regionName should not be empty");
     }
 
     const region = findItem(this.rg_data, lowerCase(regionName));
@@ -41,7 +39,7 @@ class Galsenify {
 
   population(regionName: string): number {
     if (!regionName) {
-      throw new RegionReferenceError('Argument regionName should not be empty');
+      throw new RegionReferenceError("Argument regionName should not be empty");
     }
 
     const region = findItem(this.rg_data, lowerCase(regionName));
@@ -50,7 +48,7 @@ class Galsenify {
 
   superficie(regionName: string): number {
     if (!regionName) {
-      throw new RegionReferenceError('Argument regionName should not be empty');
+      throw new RegionReferenceError("Argument regionName should not be empty");
     }
 
     const region = findItem(this.rg_data, lowerCase(regionName));
@@ -63,7 +61,7 @@ class Galsenify {
 
   arrondissements(departmentName: string): string[] {
     if (!departmentName) {
-      throw new DepartmentReferenceError('Argument departmentName should not be empty');
+      throw new DepartmentReferenceError("Argument departmentName should not be empty");
     }
 
     const department = departmentItem(this.dp_data, lowerCase(departmentName));
@@ -72,7 +70,7 @@ class Galsenify {
 
   populationDepartment(departmentName: string): number {
     if (!departmentName) {
-      throw new DepartmentReferenceError('Argument departmentName should not be empty');
+      throw new DepartmentReferenceError("Argument departmentName should not be empty");
     }
 
     const department = departmentItem(this.dp_data, lowerCase(departmentName));
@@ -81,7 +79,7 @@ class Galsenify {
 
   superficieDepartment(departmentName: string): number {
     if (!departmentName) {
-      throw new DepartmentReferenceError('Argument departmentName should not be empty');
+      throw new DepartmentReferenceError("Argument departmentName should not be empty");
     }
 
     const department = departmentItem(this.dp_data, lowerCase(departmentName));
@@ -99,5 +97,4 @@ class Galsenify {
 
 const galsenify = new Galsenify();
 
-// Export uniquement pour ES Modules
 export default galsenify;

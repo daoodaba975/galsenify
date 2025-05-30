@@ -4,8 +4,7 @@
 
 **_Lire en [Français](./assets/translate/README-fr.md)_**
 
-**Galsenify** is a package that allows you to easily manipulate data about Senegal.  
-It offers a lot of information about Senegal.
+**Galsenify** is a comprehensive library for Senegalese data, it offers a lot of information about country of Teranga.
 
 - Current version ➡️ 1.0.0
 
@@ -91,7 +90,7 @@ console.log(galsenify.codes());
 
 ## Example ✅
 
-**[Galsenify Demo](https://github.com/daoodaba975/galsenify.demo)** is a demo project to show you how to use the Galsenify package in Next.js project presented at #LiveKoorGalsenDEV event, you can see live [here](https://galsenify.vercel.app).
+**[Galsenify Demo](https://github.com/daoodaba975/galsenify.demo)** is a demo project to show you how to use the Galsenify package in a Next.js project presented at #LiveKoorGalsenDEV event; you can see the live demo at [Galsenify Live Demo](https://galsenify.vercel.app).
 
 ## Contributing 🌍
 
