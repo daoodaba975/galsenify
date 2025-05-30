@@ -1,7 +1,7 @@
 import { defineConfig } from 'tsup';
 
 export default defineConfig([
-  // Configuration ESM
+  // Config ESM
   {
     entry: ['src/index.ts'],
     format: ['esm'],
@@ -13,11 +13,12 @@ export default defineConfig([
     platform: 'node',
     target: 'node16',
   },
-  // Configuration CommonJS
+
+  // Config CommonJS
   {
     entry: ['src/cjs.cts'],
     format: ['cjs'],
-    dts: false, // Désactiver la génération de .d.ts pour CJS
+    dts: false,
     splitting: false,
     sourcemap: true,
     treeshake: true,

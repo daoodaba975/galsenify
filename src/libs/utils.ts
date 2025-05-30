@@ -1,7 +1,7 @@
-import { Department, Region } from '../types';
-import { DepartmentReferenceError, RegionReferenceError } from './exceptions';
+import { Department, Region } from "../types";
+import { DepartmentReferenceError, RegionReferenceError } from "./exceptions";
 
-export const lowerCase = (value?: string): string => value?.toLowerCase().trim() ?? '';
+export const lowerCase = (value?: string): string => value?.toLowerCase().trim() ?? "";
 
 export const findItem = (items: Region[], value: string): Region => {
   const region = items.find((region) => lowerCase(region.nom) === lowerCase(value));
