@@ -1,0 +1,252 @@
+[
+  {
+    "nom": "Dakar",
+    "region": "Dakar",
+    "arrondissements": ["Almadies", "Dakar Plateau", "Grand Dakar", "Parcelles Assainies"]
+  },
+  {
+    "nom": "Guédiawaye",
+    "region": "Dakar",
+    "arrondissements": [
+      "Golf Sud",
+      "Médina Gounass",
+      "Ndiarème Limamoulaye",
+      "Sam Notaire",
+      "Wakhinane Nimzatt"
+    ]
+  },
+  {
+    "nom": "Keur Massar",
+    "region": "Dakar",
+    "arrondissements": [
+      "Yeumbeul Nord",
+      "Yeumbeul Sud",
+      "Malika",
+      "Keur Massar Nord",
+      "Keur Massar Sud",
+      "Jaxaay-Parcelles"
+    ]
+  },
+  {
+    "nom": "Pikine",
+    "region": "Dakar",
+    "arrondissements": ["Dagoudane", "Thiaroye"]
+  },
+  {
+    "nom": "Rufisque",
+    "region": "Dakar",
+    "arrondissements": ["Rufisque", "Sangalkam", "Bambylor"]
+  },
+  {
+    "nom": "Bambey",
+    "region": "Diourbel",
+    "arrondissements": ["Baba Garage", "Lambaye", "Ngoye"]
+  },
+  {
+    "nom": "Diourbel",
+    "region": "Diourbel",
+    "arrondissements": ["Ndindy", "Ndoulo"]
+  },
+  {
+    "nom": "Mbacké",
+    "region": "Diourbel",
+    "arrondissements": ["Kael", "Ndame", "Taïf"]
+  },
+  {
+    "nom": "Fatick",
+    "region": "Fatick",
+    "arrondissements": ["Diakhao", "Fimela", "Niakhar", "Tattaguine"]
+  },
+  {
+    "nom": "Foundiougne",
+    "region": "Fatick",
+    "arrondissements": ["Djilor", "Niodior", "Toubacouta"]
+  },
+  {
+    "nom": "Gossas",
+    "region": "Fatick",
+    "arrondissements": ["Colobane", "Ouadiour"]
+  },
+  {
+    "nom": "Birkelane",
+    "region": "Kaffrine",
+    "arrondissements": ["Keur Mboucki", "Mabo"]
+  },
+  {
+    "nom": "Kaffrine",
+    "region": "Kaffrine",
+    "arrondissements": ["Gniby", "Katakel"]
+  },
+  {
+    "nom": "Koungheul",
+    "region": "Kaffrine",
+    "arrondissements": ["Missirah Wadene", "Ida Mouride", "Lour Escale"]
+  },
+  {
+    "nom": "Malème-Hodar",
+    "region": "Kaffrine",
+    "arrondissements": ["Darou Minam 2", "Sagna"]
+  },
+  {
+    "nom": "Guinguinéo",
+    "region": "Kaolack",
+    "arrondissements": ["Mbadakhoune", "Nguélou"]
+  },
+  {
+    "nom": "Kaolack",
+    "region": "Kaolack",
+    "arrondissements": ["Koumbal", "Ndiédieng", "Sibassor"]
+  },
+  {
+    "nom": "Nioro du Rip",
+    "region": "Kaolack",
+    "arrondissements": ["Wack Ngouna", "Médina Sabakh", "Paoskoto"]
+  },
+  {
+    "nom": "Kédougou",
+    "region": "Kédougou",
+    "arrondissements": ["Bandafassi", "Fongolembi"]
+  },
+  {
+    "nom": "Salemata",
+    "region": "Kédougou",
+    "arrondissements": ["Dakateli", "Dar Salam"]
+  },
+  {
+    "nom": "Saraya",
+    "region": "Kédougou",
+    "arrondissements": ["Bembou", "Sabodala"]
+  },
+  {
+    "nom": "Kolda",
+    "region": "Kolda",
+    "arrondissements": ["Djoulacolon", "Mampatim", "Saré Bidji"]
+  },
+  {
+    "nom": "Vélingara",
+    "region": "Kolda",
+    "arrondissements": ["Bonconto", "Pakour", "Saré Coly Sallé"]
+  },
+  {
+    "nom": "Médina Yoro Foulah",
+    "region": "Kolda",
+    "arrondissements": ["Fafacourou", "Ndorna", "Niaming"]
+  },
+  {
+    "nom": "Kébémer",
+    "region": "Louga",
+    "arrondissements": ["Darou Mousty", "Ndande", "Sagatta Gueth"]
+  },
+  {
+    "nom": "Linguère",
+    "region": "Louga",
+    "arrondissements": ["Barkédji", "Dodji", "Sagatta", "Dioloff", "Yang-Yang"]
+  },
+  {
+    "nom": "Louga",
+    "region": "Louga",
+    "arrondissements": ["Coki", "Mbédiène", "Sakal", "Keur Momar Sarr"]
+  },
+  {
+    "nom": "Kanel",
+    "region": "Matam",
+    "arrondissements": ["Orkadiere", "Wouro Sidy"]
+  },
+  {
+    "nom": "Matam",
+    "region": "Matam",
+    "arrondissements": ["Agnam Civol", "Ogo"]
+  },
+  {
+    "nom": "Ranérou-Ferlo",
+    "region": "Matam",
+    "arrondissements": ["Orkadiere", "Wouro Sidy"]
+  },
+  {
+    "nom": "Dagana",
+    "region": "Saint-Louis",
+    "arrondissements": ["Mbane", "Ndiaye"]
+  },
+  {
+    "nom": "Podor",
+    "region": "Saint-Louis",
+    "arrondissements": ["Cas-Cas", "Gamadji Saré", "Saldé", "Thillé Boubacar"]
+  },
+  {
+    "nom": "Saint-Louis",
+    "region": "Saint-Louis",
+    "arrondissements": ["Rao"]
+  },
+  {
+    "nom": "Bounkiling",
+    "region": "Sédhiou",
+    "arrondissements": ["Boghal", "Bona", "Diaroumé"]
+  },
+  {
+    "nom": "Goudomp",
+    "region": "Sédhiou",
+    "arrondissements": ["Djibanar", "Simbandi Brassou", "Karantaba"]
+  },
+  {
+    "nom": "Sédhiou",
+    "region": "Sédhiou",
+    "arrondissements": ["Diendé", "Djibabouya", "Djiredji"]
+  },
+  {
+    "nom": "Bakel",
+    "region": "Tambacounda",
+    "arrondissements": ["Bélé", "Kéniaba", "Moudéry"]
+  },
+  {
+    "nom": "Goudiry",
+    "region": "Tambacounda",
+    "arrondissements": ["Bala", "Boynguel Bamba", "Dianké Makha", "Koulor"]
+  },
+  {
+    "nom": "Koumpentoum",
+    "region": "Tambacounda",
+    "arrondissements": ["Bamba Thialène", "Kouthiaba Wolof"]
+  },
+  {
+    "nom": "Tambacounda",
+    "region": "Tambacounda",
+    "arrondissements": ["Koussanar", "Makacolibantang", "Missirah"]
+  },
+  {
+    "nom": "Mbour",
+    "region": "Thies",
+    "arrondissements": ["Fissel", "Sindia", "Séssène"]
+  },
+  {
+    "nom": "Thies",
+    "region": "Thies",
+    "arrondissements": ["Keur Moussa", "Notto", "Thiénaba", "Thies Nord", "Thies Sud"]
+  },
+  {
+    "nom": "Tivaouane",
+    "region": "Thies",
+    "arrondissements": ["Mérina Dakhar", "Méouane", "Niakhène", "Pambal"]
+  },
+  {
+    "nom": "Bignona",
+    "region": "Ziguinchor",
+    "arrondissements": ["Katab 1", "Sindian", "Tendouck", "Tenghory"]
+  },
+  {
+    "nom": "Oussouye",
+    "region": "Ziguinchor",
+    "arrondissements": ["Kabrousse", "Loudia Ouoloff"]
+  },
+  {
+    "nom": "Ziguinchor",
+    "region": "Ziguinchor",
+    "arrondissements": [
+      "Adéane",
+      "Boutoupa Camaracounda",
+      "Enampore",
+      "Niaguis",
+      "Nyassia",
+      "Ziguinchor"
+    ]
+  }
+]
