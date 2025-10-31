@@ -90,16 +90,31 @@ console.log(galsenify.codes());
 
 **[Galsenify Demo](https://github.com/daoodaba975/galsenify.demo)** est un projet démo pour vous montrer comment utiliser le package Galsenify dans un projet Next.js présenté lors de l'événement #LiveKoorGalsenDEV, vous pouvez voir en ligne [ici](https://galsenify.vercel.app).
 
+### Auteur 🌟
+
+[![Daouda BA](https://avatars.githubusercontent.com/daoodaba975?s=64)](https://github.com/daoodaba975)  
+Créé par **[Daouda BA](https://github.com/daoodaba975)**
+
+Vous pouvez m'offrir un café ☕ et aider le projet à grandir 🙌🏾
+
+<a href="https://www.buymeacoffee.com/daoodaba975" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Acheter Moi Un Café" style="height: 51px !important;width: 217px !important; border-radius: 10px;" ></a>
+
 ### Contribution 🌍
 
-⚠️ Si vous souhaitez contribuer sur ce projet, veuillez d'abord consulter le **[Guide de Contribution](CONTRIBUTING-fr.md)**.
+⚠️ Si vous souhaitez contribuer sur ce projet, veuillez d'abord consulter le **[Guide de Contribution](../CONTRIBUTING.md)**.
 
 Si vous trouvez un 🐞 (bug) ou que vous avez une 💡 (idée) sur l'évolution de ce projet, vous pouvez ouvrir une **[issue](https://github.com/daoodaba975/galsenify/issues/new)**.  
-Je suis également disponible sur **[X (Twitter)](https://x.com/daoodaba975)**.
+Je suis également disponible sur **[Twitter](https://twitter.com/daoodaba975)**.
+
+Un merci spécial à [Dame LEYE (Honorable Con)](https://github.com/honorableCon) pour sa contribution sur ce projet.
+
+[![Honorable Con](https://avatars.githubusercontent.com/honorableCon?s=64)](https://github.com/honorableCon)
 
 Merci à tous les contributeurs 👏🏽
 
-![Contributors](https://contrib.rocks/image?repo=daoodaba975/galsenify)
+<a href="https://github.com/daoodaba975/galsenify/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=daoodaba975/galsenify" />
+</a>
 
 #### Changelog 🔁
 
