@@ -1,15 +1,15 @@
-# Galsenify 📦💫
+# Galsenify 📦
 
 ![COVER](assets/img/cover.png)
 
-**_Lire en [Français](./assets/translate/FR.md)_**
+**_Lire en [Français](./assets/translate/README-fr.md)_**
 
-**Galsenify** is a package that allows you to easily manipulate data about Senegal.  
-It offers a lot of information about Senegal.
+**Galsenify** is a comprehensive library for Senegalese data, it offers a lot of information about country of Teranga.
 
-- Current version ➡️ 1.0.0
+- Current version ➡️ 1.1.0
+- Data source: **RGPH-5 2023** (5th General Census of Population and Housing)
 
-## Install 📥
+## Install
 
 `via NPM`
 
@@ -29,7 +29,7 @@ yarn add galsenify
 pnpm i galsenify
 ```
 
-## Usage 💡
+## Usage
 
 ```js
 import galsenify from "galsenify";
@@ -53,77 +53,191 @@ console.log(galsenify.regions());
   "Saint-Louis",
   "Sédhiou",
   "Tambacounda",
-  "Thies",
+  "Thiès",
   "Ziguinchor",
 ];
 ```
 
-## List of available commands 🧩
+## List of available commands
+
+### Country 🇸🇳
 
 ```js
-// Get all data about Senegal.
-console.log(galsenify.sn());
+// Get all data about Senegal
+galsenify.sn();
+// { pays: "Sénégal", capital: "Dakar", habitants: 18126390, ... }
 
-// Get all national language.
-console.log(galsenify.languesNationales());
-
-// Get all data about region.
-console.log(galsenify.rg());
-
-// Get all regions.
-console.log(galsenify.regions());
-
-// Get departments by region.
-// replace "region" by an existing region (example : Dakar)
-console.log(galsenify.departments("region"));
-
-// Get populations by region.
-// replace "region" by an existing region (example : thies)
-console.log(galsenify.population("region"));
-
-// Get area by region.
-// replace "region" by an existing region (example : KAOLACK)
-console.log(galsenify.superficie("region"));
-
-// Get all regions code.
-console.log(galsenify.codes());
+// Get all national languages
+galsenify.languesNationales();
+// ["Wolof", "Pular", "Sérère", "Diola", "Mandingue", "Soninké", "Bambara"]
 ```
 
-## Example ✅
+### Regions 🗺️
 
-**[Galsenify Demo](https://github.com/daoodaba975/galsenify.demo)** is a demo project to show you how to use the Galsenify package in Next.js project presented at #LiveKoorGalsenDEV event, you can see live [here](https://galsenify.vercel.app).
+```js
+// Get all data about regions
+galsenify.rg();
 
-## Author 🌟
+// Get all region names
+galsenify.regions();
 
-[![Daouda BA](https://avatars.githubusercontent.com/daoodaba975?s=64)](https://github.com/daoodaba975)  
-Created by **[Daouda BA](https://github.com/daoodaba975)**
+// Get all region codes
+galsenify.codes();
+// ["DK", "DB", "FK", "KA", "KL", "KE", "KD", "LG", "MT", "SL", "SE", "TC", "TH", "ZG"]
 
-You can buy me a coffee ☕ and help the project to grow up 🙌🏾
+// Get departments by region name
+galsenify.departments("Dakar");
+// ["Dakar", "Pikine", "Guédiawaye", "Rufisque", "Keur Massar"]
 
-<a href="https://www.buymeacoffee.com/daoodaba975" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important; border-radius: 10px;" ></a>
+// Get population by region name
+galsenify.population("Dakar");
+// 4004427
 
-## Contributing 🌍
+// Get area (km²) by region name
+galsenify.superficie("Thiès");
+// 6670
+```
 
-⚠️ If you want contribute on this project, please check firt the **[Contributing Guide](./assets/CONTRIBUTING.md)**.
+### Departments 🏛️
 
-If you find 🐞 or you have a 💡 about the evolution of this project, you can open an **[issue](https://github.com/daoodaba975/galsenify/issues/new)**.  
-I'm also available on **[Twitter](https://twitter.com/daoodaba975)**.
+```js
+// Get all department names
+galsenify.allDepartments();
 
-A special thanks to [Dame LEYE (Honorable Con)](https://github.com/honorableCon) for his contribution on this project.
+// Get arrondissements by department name
+galsenify.arrondissements("Dakar");
 
-[![Honorable Con](https://avatars.githubusercontent.com/honorableCon?s=64)](https://github.com/honorableCon)
+// Get population by department name
+galsenify.populationDepartment("Mbacké");
+// 1359756
+
+// Get area (km²) by department name
+galsenify.superficieDepartment("Mbour");
+// 1725
+```
+
+### Telecom Operators 📱
+
+```js
+// Get all telecom operators
+galsenify.operateurs();
+
+// Get mobile operators only
+galsenify.operateursMobiles();
+// [{ nom: "Orange", prefixes: ["77", "78"], ... }, ...]
+
+// Find operator by prefix
+galsenify.findOperateurByPrefix("77");
+// { nom: "Orange", prefixes: ["77", "78"], type: "mobile", ... }
+
+// Find operator by phone number
+galsenify.findOperateurByNumber("771234567");
+// { nom: "Orange", ... }
+
+galsenify.findOperateurByNumber("76 123 45 67");
+// { nom: "Free", ... }
+```
+
+### Search 🔍
+
+```js
+// Global search (regions, departments)
+galsenify.search("Dakar");
+// [{ type: "region", nom: "Dakar", data: {...} }, { type: "department", nom: "Dakar", data: {...} }, ...]
+
+// Find region by code
+galsenify.findByCode("DK");
+// { nom: "Dakar", code: "DK", population: 4004427, ... }
+```
+
+### Calculations 📊
+
+```js
+// Get total population (sum of all regions)
+galsenify.totalPopulation();
+// 18126390
+
+// Get total area (sum of all regions)
+galsenify.totalSuperficie();
+// 196712
+
+// Get population density by region (hab/km²)
+galsenify.density("Dakar");
+// 7322
+
+// Get population density by department (hab/km²)
+galsenify.densityDepartment("Mbacké");
+// 567
+
+// Get national density (hab/km²)
+galsenify.nationalDensity();
+// 92
+```
+
+### Filters & Sorting 📈
+
+```js
+// Get regions sorted by population (descending)
+galsenify.regionsByPopulation();
+// [{ nom: "Dakar", ... }, { nom: "Thiès", ... }, ...]
+
+// Get regions sorted by population (ascending)
+galsenify.regionsByPopulation("asc");
+
+// Get regions sorted by area
+galsenify.regionsBySuperficie();
+
+// Get regions sorted by density
+galsenify.regionsByDensity();
+
+// Get departments sorted by population
+galsenify.departmentsByPopulation();
+
+// Get departments by region code
+galsenify.departmentsByRegion("DK");
+// [{ nom: "Dakar", ... }, { nom: "Pikine", ... }, ...]
+```
+
+### Random 🎲
+
+```js
+// Get a random region
+galsenify.randomRegion();
+// { nom: "Kaolack", code: "KL", population: 1336719, ... }
+
+// Get a random department
+galsenify.randomDepartment();
+// { nom: "Mbour", region: "Thiès", population: 935304, ... }
+```
+
+## Data Summary
+
+| Category    | Count | Source      |
+| ----------- | ----- | ----------- |
+| Regions     | 14    | RGPH-5 2023 |
+| Departments | 46    | RGPH-5 2023 |
+| Operators   | 4     | 2024        |
+
+## Example
+
+**[Galsenify Demo](https://github.com/daoodaba975/galsenify.demo)** is a demo project to show you how to use the Galsenify package in a Next.js project presented at #LiveKoorGalsenDEV event; you can see the live demo at **[Galsenify Live Demo](https://demo-galsenify.netlify.app)**.
+
+## Contributing
+
+⚠️ If you want contribute on this project, please check first the **[Contributing Guide](./assets/CONTRIBUTING.md)**.
+
+If you find 🐞 or you have a 💡 about the evolution of this project, you can open an **[issue](https://github.com/daoodaba975/galsenify/issues/new)**.
+I'm also available on **[X (Twitter)](https://x.com/daoodaba975)**.
 
 Thanks to all contributors 👏🏽
 
-<a href="https://github.com/daoodaba975/galsenify/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=daoodaba975/galsenify" />
-</a>
+![Contributors](https://contrib.rocks/image?repo=daoodaba975/galsenify)
 
-## Changelog 🔁
+## Changelog
 
 You can also consult the **[Changelog](./assets/CHANGELOG.md)** to see the different changes and evolution between versions.
 
-## Licence 🎫
+## Licence
 
 This package is released under the **[MIT Licence](./assets/LICENCE.md)** ✔
 

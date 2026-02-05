@@ -1,0 +1,100 @@
+[
+  {
+    "nom": "Dakar",
+    "code": "DK",
+    "population": 4004427,
+    "superficie": 547,
+    "departments": ["Dakar", "Pikine", "Guédiawaye", "Rufisque", "Keur Massar"]
+  },
+  {
+    "nom": "Diourbel",
+    "code": "DB",
+    "population": 2080335,
+    "superficie": 4824,
+    "departments": ["Diourbel", "Bambey", "Mbacké"]
+  },
+  {
+    "nom": "Fatick",
+    "code": "FK",
+    "population": 906918,
+    "superficie": 6849,
+    "departments": ["Fatick", "Foundiougne", "Gossas"]
+  },
+  {
+    "nom": "Kaffrine",
+    "code": "KA",
+    "population": 820405,
+    "superficie": 11262,
+    "departments": ["Kaffrine", "Birkelane", "Malème-Hodar", "Koungheul"]
+  },
+  {
+    "nom": "Kaolack",
+    "code": "KL",
+    "population": 1336719,
+    "superficie": 5357,
+    "departments": ["Kaolack", "Guinguinéo", "Nioro du Rip"]
+  },
+  {
+    "nom": "Kédougou",
+    "code": "KE",
+    "population": 245146,
+    "superficie": 16800,
+    "departments": ["Kédougou", "Salémata", "Saraya"]
+  },
+  {
+    "nom": "Kolda",
+    "code": "KD",
+    "population": 914798,
+    "superficie": 13771,
+    "departments": ["Kolda", "Médina Yoro Foulah", "Vélingara"]
+  },
+  {
+    "nom": "Louga",
+    "code": "LG",
+    "population": 1125908,
+    "superficie": 24889,
+    "departments": ["Louga", "Kébémer", "Linguère"]
+  },
+  {
+    "nom": "Matam",
+    "code": "MT",
+    "population": 831629,
+    "superficie": 29445,
+    "departments": ["Matam", "Kanel", "Ranérou"]
+  },
+  {
+    "nom": "Saint-Louis",
+    "code": "SL",
+    "population": 1202442,
+    "superficie": 19241,
+    "departments": ["Saint-Louis", "Dagana", "Podor"]
+  },
+  {
+    "nom": "Sédhiou",
+    "code": "SE",
+    "population": 589266,
+    "superficie": 7341,
+    "departments": ["Sédhiou", "Bounkiling", "Goudomp"]
+  },
+  {
+    "nom": "Tambacounda",
+    "code": "TC",
+    "population": 987151,
+    "superficie": 42364,
+    "departments": ["Tambacounda", "Goudiry", "Bakel", "Koumpentoum"]
+  },
+  {
+    "nom": "Thiès",
+    "code": "TH",
+    "population": 2463678,
+    "superficie": 6670,
+    "departments": ["Thiès", "Tivaouane", "Mbour"]
+  },
+  {
+    "nom": "Ziguinchor",
+    "code": "ZG",
+    "population": 617568,
+    "superficie": 7352,
+    "departments": ["Ziguinchor", "Bignona", "Oussouye"]
+  }
+]
