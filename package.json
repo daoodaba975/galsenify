@@ -71,5 +71,8 @@
     "tsup": "^8.5.1",
     "typedoc": "^0.24.8",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "glob": "^13.0.1"
   }
 }
