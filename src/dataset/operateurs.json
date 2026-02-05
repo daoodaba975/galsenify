@@ -1,0 +1,32 @@
+[
+  {
+    "nom": "Orange",
+    "prefixes": ["77", "78"],
+    "type": "mobile",
+    "description": "Opérateur historique du Sénégal"
+  },
+  {
+    "nom": "Free",
+    "prefixes": ["76"],
+    "type": "mobile",
+    "description": "Deuxième opérateur mobile du Sénégal (anciennement Tigo)"
+  },
+  {
+    "nom": "Expresso",
+    "prefixes": ["70"],
+    "type": "mobile",
+    "description": "Troisième opérateur mobile du Sénégal"
+  },
+  {
+    "nom": "Promobile",
+    "prefixes": ["75"],
+    "type": "mobile",
+    "description": "Quatrième opérateur mobile du Sénégal"
+  },
+  {
+    "nom": "Orange Fixe",
+    "prefixes": ["33"],
+    "type": "fixe",
+    "description": "Lignes fixes Orange/Sonatel"
+  }
+]

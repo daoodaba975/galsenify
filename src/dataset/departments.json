@@ -1,0 +1,344 @@
+[
+  {
+    "nom": "Dakar",
+    "region": "Dakar",
+    "population": 1278469,
+    "superficie": 83,
+    "arrondissements": ["Almadies", "Dakar Plateau", "Grand Dakar", "Parcelles Assainies"]
+  },
+  {
+    "nom": "Guédiawaye",
+    "region": "Dakar",
+    "population": 372708,
+    "superficie": 12,
+    "arrondissements": [
+      "Golf Sud",
+      "Médina Gounass",
+      "Ndiarème Limamoulaye",
+      "Sam Notaire",
+      "Wakhinane Nimzatt"
+    ]
+  },
+  {
+    "nom": "Keur Massar",
+    "region": "Dakar",
+    "population": 770314,
+    "superficie": 26,
+    "arrondissements": [
+      "Yeumbeul Nord",
+      "Yeumbeul Sud",
+      "Malika",
+      "Keur Massar Nord",
+      "Keur Massar Sud",
+      "Jaxaay-Parcelles"
+    ]
+  },
+  {
+    "nom": "Pikine",
+    "region": "Dakar",
+    "population": 764597,
+    "superficie": 95,
+    "arrondissements": ["Dagoudane", "Thiaroye"]
+  },
+  {
+    "nom": "Rufisque",
+    "region": "Dakar",
+    "population": 818337,
+    "superficie": 331,
+    "arrondissements": ["Rufisque", "Sangalkam", "Bambylor"]
+  },
+  {
+    "nom": "Bambey",
+    "region": "Diourbel",
+    "population": 376467,
+    "superficie": 1351,
+    "arrondissements": ["Baba Garage", "Lambaye", "Ngoye"]
+  },
+  {
+    "nom": "Diourbel",
+    "region": "Diourbel",
+    "population": 344109,
+    "superficie": 1077,
+    "arrondissements": ["Ndindy", "Ndoulo"]
+  },
+  {
+    "nom": "Mbacké",
+    "region": "Diourbel",
+    "population": 1359756,
+    "superficie": 2396,
+    "arrondissements": ["Kael", "Ndame", "Taïf"]
+  },
+  {
+    "nom": "Fatick",
+    "region": "Fatick",
+    "population": 408566,
+    "superficie": 2646,
+    "arrondissements": ["Diakhao", "Fimela", "Niakhar", "Tattaguine"]
+  },
+  {
+    "nom": "Foundiougne",
+    "region": "Fatick",
+    "population": 375388,
+    "superficie": 2959,
+    "arrondissements": ["Djilor", "Niodior", "Toubacouta"]
+  },
+  {
+    "nom": "Gossas",
+    "region": "Fatick",
+    "population": 122968,
+    "superficie": 1244,
+    "arrondissements": ["Colobane", "Ouadiour"]
+  },
+  {
+    "nom": "Birkelane",
+    "region": "Kaffrine",
+    "population": 151064,
+    "superficie": 1602,
+    "arrondissements": ["Keur Mboucki", "Mabo"]
+  },
+  {
+    "nom": "Kaffrine",
+    "region": "Kaffrine",
+    "population": 280787,
+    "superficie": 3175,
+    "arrondissements": ["Gniby", "Katakel"]
+  },
+  {
+    "nom": "Koungheul",
+    "region": "Kaffrine",
+    "population": 253304,
+    "superficie": 4101,
+    "arrondissements": ["Missirah Wadene", "Ida Mouride", "Lour Escale"]
+  },
+  {
+    "nom": "Malème-Hodar",
+    "region": "Kaffrine",
+    "population": 135249,
+    "superficie": 2384,
+    "arrondissements": ["Darou Minam 2", "Sagna"]
+  },
+  {
+    "nom": "Guinguinéo",
+    "region": "Kaolack",
+    "population": 160057,
+    "superficie": 947,
+    "arrondissements": ["Mbadakhoune", "Nguélou"]
+  },
+  {
+    "nom": "Kaolack",
+    "region": "Kaolack",
+    "population": 664053,
+    "superficie": 2139,
+    "arrondissements": ["Koumbal", "Ndiédieng", "Sibassor"]
+  },
+  {
+    "nom": "Nioro du Rip",
+    "region": "Kaolack",
+    "population": 512608,
+    "superficie": 2271,
+    "arrondissements": ["Wack Ngouna", "Médina Sabakh", "Paoskoto"]
+  },
+  {
+    "nom": "Kédougou",
+    "region": "Kédougou",
+    "population": 124266,
+    "superficie": 4966,
+    "arrondissements": ["Bandafassi", "Fongolembi"]
+  },
+  {
+    "nom": "Salémata",
+    "region": "Kédougou",
+    "population": 28026,
+    "superficie": 3696,
+    "arrondissements": ["Dakateli", "Dar Salam"]
+  },
+  {
+    "nom": "Saraya",
+    "region": "Kédougou",
+    "population": 92855,
+    "superficie": 8138,
+    "arrondissements": ["Bembou", "Sabodala"]
+  },
+  {
+    "nom": "Kolda",
+    "region": "Kolda",
+    "population": 324192,
+    "superficie": 3522,
+    "arrondissements": ["Djoulacolon", "Mampatim", "Saré Bidji"]
+  },
+  {
+    "nom": "Vélingara",
+    "region": "Kolda",
+    "population": 405149,
+    "superficie": 4849,
+    "arrondissements": ["Bonconto", "Pakour", "Saré Coly Sallé"]
+  },
+  {
+    "nom": "Médina Yoro Foulah",
+    "region": "Kolda",
+    "population": 185456,
+    "superficie": 5400,
+    "arrondissements": ["Fafacourou", "Ndorna", "Niaming"]
+  },
+  {
+    "nom": "Kébémer",
+    "region": "Louga",
+    "population": 335921,
+    "superficie": 3149,
+    "arrondissements": ["Darou Mousty", "Ndande", "Sagatta Gueth"]
+  },
+  {
+    "nom": "Linguère",
+    "region": "Louga",
+    "population": 312224,
+    "superficie": 14572,
+    "arrondissements": ["Barkédji", "Dodji", "Sagatta", "Dioloff", "Yang-Yang"]
+  },
+  {
+    "nom": "Louga",
+    "region": "Louga",
+    "population": 477765,
+    "superficie": 7168,
+    "arrondissements": ["Coki", "Mbédiène", "Sakal", "Keur Momar Sarr"]
+  },
+  {
+    "nom": "Kanel",
+    "region": "Matam",
+    "population": 341520,
+    "superficie": 9046,
+    "arrondissements": ["Orkadiere", "Wouro Sidy"]
+  },
+  {
+    "nom": "Matam",
+    "region": "Matam",
+    "population": 386887,
+    "superficie": 5474,
+    "arrondissements": ["Agnam Civol", "Ogo"]
+  },
+  {
+    "nom": "Ranérou-Ferlo",
+    "region": "Matam",
+    "population": 103225,
+    "superficie": 14925,
+    "arrondissements": ["Orkadiere", "Wouro Sidy"]
+  },
+  {
+    "nom": "Dagana",
+    "region": "Saint-Louis",
+    "population": 329063,
+    "superficie": 6087,
+    "arrondissements": ["Mbane", "Ndiaye"]
+  },
+  {
+    "nom": "Podor",
+    "region": "Saint-Louis",
+    "population": 486007,
+    "superficie": 9142,
+    "arrondissements": ["Cas-Cas", "Gamadji Saré", "Saldé", "Thillé Boubacar"]
+  },
+  {
+    "nom": "Saint-Louis",
+    "region": "Saint-Louis",
+    "population": 387368,
+    "superficie": 4012,
+    "arrondissements": ["Rao"]
+  },
+  {
+    "nom": "Bounkiling",
+    "region": "Sédhiou",
+    "population": 207872,
+    "superficie": 2579,
+    "arrondissements": ["Boghal", "Bona", "Diaroumé"]
+  },
+  {
+    "nom": "Goudomp",
+    "region": "Sédhiou",
+    "population": 188097,
+    "superficie": 1742,
+    "arrondissements": ["Djibanar", "Simbandi Brassou", "Karantaba"]
+  },
+  {
+    "nom": "Sédhiou",
+    "region": "Sédhiou",
+    "population": 193295,
+    "superficie": 3020,
+    "arrondissements": ["Diendé", "Djibabouya", "Djiredji"]
+  },
+  {
+    "nom": "Bakel",
+    "region": "Tambacounda",
+    "population": 189937,
+    "superficie": 8994,
+    "arrondissements": ["Bélé", "Kéniaba", "Moudéry"]
+  },
+  {
+    "nom": "Goudiry",
+    "region": "Tambacounda",
+    "population": 170601,
+    "superficie": 8584,
+    "arrondissements": ["Bala", "Boynguel Bamba", "Dianké Makha", "Koulor"]
+  },
+  {
+    "nom": "Koumpentoum",
+    "region": "Tambacounda",
+    "population": 199197,
+    "superficie": 8813,
+    "arrondissements": ["Bamba Thialène", "Kouthiaba Wolof"]
+  },
+  {
+    "nom": "Tambacounda",
+    "region": "Tambacounda",
+    "population": 427419,
+    "superficie": 15973,
+    "arrondissements": ["Koussanar", "Makacolibantang", "Missirah"]
+  },
+  {
+    "nom": "Mbour",
+    "region": "Thiès",
+    "population": 935304,
+    "superficie": 1725,
+    "arrondissements": ["Fissel", "Sindia", "Séssène"]
+  },
+  {
+    "nom": "Thiès",
+    "region": "Thiès",
+    "population": 879186,
+    "superficie": 1873,
+    "arrondissements": ["Keur Moussa", "Notto", "Thiénaba", "Thies Nord", "Thies Sud"]
+  },
+  {
+    "nom": "Tivaouane",
+    "region": "Thiès",
+    "population": 649189,
+    "superficie": 3072,
+    "arrondissements": ["Mérina Dakhar", "Méouane", "Niakhène", "Pambal"]
+  },
+  {
+    "nom": "Bignona",
+    "region": "Ziguinchor",
+    "population": 287500,
+    "superficie": 4579,
+    "arrondissements": ["Katab 1", "Sindian", "Tendouck", "Tenghory"]
+  },
+  {
+    "nom": "Oussouye",
+    "region": "Ziguinchor",
+    "population": 54567,
+    "superficie": 1166,
+    "arrondissements": ["Kabrousse", "Loudia Ouoloff"]
+  },
+  {
+    "nom": "Ziguinchor",
+    "region": "Ziguinchor",
+    "population": 275501,
+    "superficie": 1607,
+    "arrondissements": [
+      "Adéane",
+      "Boutoupa Camaracounda",
+      "Enampore",
+      "Niaguis",
+      "Nyassia",
+      "Ziguinchor"
+    ]
+  }
+]
