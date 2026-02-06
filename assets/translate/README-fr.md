@@ -4,7 +4,7 @@
 
 **Galsenify** est une bibliothèque complète de données sénégalaises, elle offre une multitude d'informations sur le pays de la Teranga.
 
-- Version actuelle ➡️ 1.1.0
+- Version actuelle ➡️ 1.2.0
 - Source des données : **RGPH-5 2023** (5ème Recensement Général de la Population et de l'Habitat)
 
 ## Installation

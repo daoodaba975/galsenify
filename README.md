@@ -6,7 +6,7 @@
 
 **Galsenify** is a comprehensive library for Senegalese data, it offers a lot of information about country of Teranga.
 
-- Current version ➡️ 1.1.0
+- Current version ➡️ 1.2.0
 - Data source: **RGPH-5 2023** (5th General Census of Population and Housing)
 
 ## Install

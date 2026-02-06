@@ -2,7 +2,7 @@
 
 This file lists all the changes according to the different versions.
 
-## 1.1.0 - Feb25 - Data Update & New Features (06.02.2025)
+## 1.2.0 - Feb25 - Data Update & New Features (06.02.2025)
 
 ### Data Updates
 
