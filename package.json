@@ -1,6 +1,6 @@
 {
   "name": "galsenify",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A comprehensive library for Senegalese data, it offers a lot of information about country of Teranga.",
   "type": "module",
   "types": "./dist/index.d.ts",
