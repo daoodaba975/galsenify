@@ -13,7 +13,7 @@ This file lists all the changes according to the different versions.
 
 ### New Features
 
-- **Telecom Operators**: Added Orange, Free, Expresso with `operateurs()`, `findOperateurByNumber()`
+- **Telecom Operators**: Added Orange, Free, Expresso, Promobile with `operateurs()`, `findOperateurByNumber()`
 - **Search**: Global search with `search()`, `findByCode()`
 - **Calculations**: `totalPopulation()`, `totalSuperficie()`, `density()`, `nationalDensity()`
 - **Filters**: `regionsByPopulation()`, `regionsBySuperficie()`, `regionsByDensity()`, `departmentsByPopulation()`, `departmentsByRegion()`
