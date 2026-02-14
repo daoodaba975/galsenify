@@ -2,7 +2,7 @@
 
 This file lists all the changes according to the different versions.
 
-## 1.1.0 - Feb25 - Data Update & New Features (06.02.2025)
+## 1.2.0 - Feb25 - Data Update & New Features (06.02.2025)
 
 ### Data Updates
 
@@ -13,7 +13,7 @@ This file lists all the changes according to the different versions.
 
 ### New Features
 
-- **Telecom Operators**: Added Orange, Free, Expresso with `operateurs()`, `findOperateurByNumber()`
+- **Telecom Operators**: Added Orange, Free, Expresso, Promobile with `operateurs()`, `findOperateurByNumber()`
 - **Search**: Global search with `search()`, `findByCode()`
 - **Calculations**: `totalPopulation()`, `totalSuperficie()`, `density()`, `nationalDensity()`
 - **Filters**: `regionsByPopulation()`, `regionsBySuperficie()`, `regionsByDensity()`, `departmentsByPopulation()`, `departmentsByRegion()`
