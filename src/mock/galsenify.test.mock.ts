@@ -23,6 +23,8 @@ export const departmentsMock: string[] = [
   "Keur Massar",
 ];
 
+export const codePostalMock = "10000";
+
 export const codeMock: string[] = [
   "DK",
   "DB",

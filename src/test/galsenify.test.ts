@@ -5,6 +5,7 @@ import {
   codeMock,
   languesNationalesMock,
   snMock,
+  codePostalMock,
 } from "../mock/galsenify.test.mock";
 import { RegionReferenceError, DepartmentReferenceError } from "../libs/exceptions";
 
@@ -43,6 +44,14 @@ describe("Galsenify", () => {
     test("should throw an error when department name is empty", () => {
       expect(() => galsenify.arrondissements("")).toThrow(DepartmentReferenceError);
     });
+
+    test("should return postal code by department", () => {
+      expect(galsenify.codePostal("Dakar")).toBe(codePostalMock);
+    });
+
+    test("should return all postal codes", () => {
+      expect(galsenify.allCodesPostaux()).toContain("10000");
+    });
   });
 
   describe("Country", () => {
@@ -52,6 +61,14 @@ describe("Galsenify", () => {
 
     test("should return all national languages", () => {
       expect(galsenify.languesNationales()).toEqual(languesNationalesMock);
+    });
+  });
+
+  describe("Search", () => {
+    test("should find department by postal code", () => {
+      const results = galsenify.search("10000");
+      expect(results[0].nom).toBe("Dakar");
+      expect(results[0].type).toBe("department");
     });
   });
 });

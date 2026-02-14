@@ -12,6 +12,7 @@ export interface Department {
   arrondissements: string[];
   population: number;
   superficie: number;
+  codePostal?: string;
 }
 
 export interface Country {

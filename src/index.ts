@@ -93,6 +93,19 @@ class Galsenify {
     return department ? department.superficie : 0;
   }
 
+  codePostal(departmentName: string): string {
+    if (!departmentName) {
+      throw new DepartmentReferenceError("Argument departmentName should not be empty");
+    }
+
+    const department = departmentItem(this.dp_data, lowerCase(departmentName));
+    return department ? department.codePostal || "" : "";
+  }
+
+  allCodesPostaux(): string[] {
+    return this.dp_data.map((department) => department.codePostal || "").filter((cp) => cp !== "");
+  }
+
   // ==================== PAYS ====================
 
   sn(): Country {
@@ -140,7 +153,10 @@ class Galsenify {
 
     // Recherche dans les départements
     this.dp_data.forEach((department) => {
-      if (lowerCase(department.nom).includes(normalizedQuery)) {
+      if (
+        lowerCase(department.nom).includes(normalizedQuery) ||
+        (department.codePostal && department.codePostal === normalizedQuery)
+      ) {
         results.push({ type: "department", nom: department.nom, data: department });
       }
     });
